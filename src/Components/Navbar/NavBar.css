@@ -1,0 +1,33 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 90px;
+  color: white;
+}
+.nav-logo {
+  font-size: 40px;
+  font-weight: 500;
+  font-family: outfit;
+}
+.nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 90px;
+  list-style-type: none;
+  font-size: 18px;
+}
+.nav-contact {
+  border-radius: 50px;
+  padding: 5px 16px;
+  color: #262626;
+  background-color: #fff;
+}
+.links:hover {
+  transition: 0.4s ease-in-out;
+  border-radius: 30px;
+  color: #b8860b;
+  border-radius: 60px;
+  background-color: #fff;
+  padding: 8px 10px;
+}
