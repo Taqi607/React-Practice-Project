@@ -29,7 +29,7 @@ function App() {
       setHeroCount((count) => {
         return count === 2 ? 0 : count + 1;
       });
-    }, 4000);
+    }, 3000);
   }, []);
   return (
     <div>
